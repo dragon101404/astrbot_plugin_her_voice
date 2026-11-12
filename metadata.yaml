@@ -1,0 +1,7 @@
+name: astrbot_plugin_her_voice
+display_name: 语音与晚安电台
+desc: 在主人网页私聊里使用本机 GPT-SoVITS 合成短语音和晚安电台。
+version: 0.1.1
+author: local
+repo: https://github.com/dragon101404/astrbot_plugin_her_voice
+astrbot_version: ">=4.29.1"

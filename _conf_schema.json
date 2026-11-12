@@ -1,0 +1,11 @@
+{
+  "repo_path": {"description":"GPT-SoVITS 安装目录","type":"string","default":"D:/GPT-SoVITS"},
+  "character": {"description":"默认角色","type":"string","default":"流萤","hint":"选择 V4 角色后，同时使用该角色的两套权重和参考语音。"},
+  "port": {"description":"本插件专用本地端口","type":"int","default":9881},
+  "default_emotion": {"description":"默认参考语气","type":"string","default":"中立","options":["中立","开心","一点悲伤","中立谨慎"],"hint":"流萤的实际参考语气。其他角色没有所选语气时，使用该角色自己的默认参考。"},
+  "speed": {"description":"语速倍率","type":"float","default":1.0,"hint":"1 为原速，有效范围 0.7–1.3。"},
+  "pause": {"description":"分句停顿秒数","type":"float","default":0.25},
+  "proactive_enabled": {"description":"允许大肥鱼自主使用短语音","type":"bool","default":true},
+  "proactive_cooldown": {"description":"自主短语音间隔（分钟）","type":"int","default":5,"hint":"点名朗读不受此间隔限制。"},
+  "radio_enabled": {"description":"启用按需晚安电台","type":"bool","default":true}
+}
